@@ -1,0 +1,43 @@
+
+h1{
+    text-align: center;
+}
+
+.contenedor{
+   display: flex;
+   justify-content: center;
+    padding: 25px;
+    
+    width: 100%;
+}
+
+.contenido-contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   padding: 20px;
+    width: 40%;
+    height: 300px;
+    border-radius: 10px;
+    gap: 2rem;
+    -webkit-box-shadow: 2px 0px 11px 4px #000000; 
+box-shadow: 2px 0px 11px 4px #000000;
+
+}
+
+.input{
+    width: 20%;
+    height: 40px;
+    border-radius: 8px;
+    
+}
+
+.buton{
+    width: 40%;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #3F8FE7;
+   
+}
+
